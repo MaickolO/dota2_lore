@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USUARIO/.gradle/caches/transforms-3/b7cdc5c1453a7e1579f6238be628b37b/transformed/appcompat-1.3.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/aplicacion_icono_background.xml" value="0.122" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/card_edge.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/horizontal_line_left.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/horizontal_line_right.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/horizotal_line_center.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/icono_principal_background.xml" value="0.122" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/inner_component.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/searchview_style.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/spinner_style.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/switch_layout.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/switch_theme.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/texto_prinipal_mundo.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/drawable/track.xml" value="0.132" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/font/font_bold.xml" value="0.234375" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout-v23/lista_heroes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_dioses.xml" value="0.1431261770244821" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_eventos.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_facciones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_heroe.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_mundo.xml" value="0.2" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_razas.xml" value="0.18" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_detalle_textos.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_main_inicio.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/activity_politica_privacidad.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/carga.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/encabezado.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_archronicus.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_comics.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_dioses.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_eventos.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_facciones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_heroes.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_informacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_inicio.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_inicio_principal.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_items.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_legion_commander.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_razas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_regiones.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_teorias.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/fragment_textos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/list_item.xml" value="0.4609375" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/lista_heroes.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/lista_mundo.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/lista_razas.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/lista_relacionados.xml" value="0.5" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/phonerecyclercard.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/spinner_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/layout/switch_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/menu/menu_principal.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/mipmap-anydpi-v26/aplicacion_icono.xml" value="0.122" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/Historia_de_dota_2/app/src/main/res/mipmap-anydpi-v26/aplicacion_icono_round.xml" value="0.122" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

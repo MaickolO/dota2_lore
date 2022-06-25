@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/menu_archronicus"
+            android:title="@string/Menu_archronicus"/>
+
+        <item
+            android:id="@+id/menu_heroes"
+            android:title="@string/Menu_heroes"/>
+
+        <item
+            android:id="@+id/menu_regiones"
+            android:title="@string/Menu_regiones"/>
+
+        <item
+            android:id="@+id/menu_razas"
+            android:title="@string/Menu_razas" />
+
+        <item
+            android:id="@+id/menu_dioses"
+            android:title="@string/Menu_dioses" />
+
+
+        <item
+            android:id="@+id/menu_facciones"
+            android:title="@string/Menu_facciones" />
+
+
+        <item
+            android:id="@+id/menu_eventos"
+            android:title="@string/Menu_eventos" />
+
+        <item
+            android:id="@+id/menu_textos"
+            android:title="@string/Menu_textos" />
+
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_informacion"
+            android:title="@string/Menu_informacion" />
+
+    </group>
+
+    <!--
+    <item
+        android:id="@+id/nav_item1"
+        android:title=""
+        app:actionLayout="@layout/switch_layout"
+        />
+    -->
+
+</menu>

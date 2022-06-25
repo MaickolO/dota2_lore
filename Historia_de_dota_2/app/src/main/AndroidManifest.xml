@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icono_principal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icono_principal_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Detalle.detalle_dioses"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.politica_privacidad"
+            android:exported="false" />
+
+        <!-- ID EJEMPLO: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- ID APLICACION: ca-app-pub-8291876581767416~2791523529 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8291876581767416~2791523529" />
+
+        <activity
+            android:name=".Detalle.detalle_eventos"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.detalle_textos"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.detalle_facciones"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.detalle_razas"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.detalle_heroe"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.detalle_mundo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Inicio"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Carga"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

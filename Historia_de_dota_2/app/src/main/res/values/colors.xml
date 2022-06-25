@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+
+    <!-- Barra Superior -->
+    <color name="colorPrimaryDark">#6C63FF</color>
+    <!-- Barra Media -->
+    <color name="colorPrimary">#6C63FF</color>
+
+    <!-- Background
+    <color name="mainBackground">#282A36</color>
+    <color name="superficie">#44475A</color>
+    <color name="PrimaryMain">#EFB810</color>
+    <color name="SecondaryMain">#BF930D</color>
+    <color name="OnBackground">#FFC107</color>
+    <color name="textPrincipal">#F8F8F2</color>
+    <color name="textAlt">#C3F8F8F2</color>
+    -->
+
+    <!-- Background -->
+    <color name="mainBackground">#F8F8F2</color>
+
+    <!-- Second Background -->
+    <color name="superficie">#F8F8F2</color>
+    <color name="background2">#6BB8DF</color>
+
+    <!-- Título -->
+    <color name="PrimaryMain">#262B49</color>
+
+    <!-- Subtítulo -->
+    <color name="SecondaryMain">#3B405E</color>
+
+    <!-- Objetos -->
+    <color name="OnBackground">#775C0A</color>
+
+    <!-- Texto Principal -->
+    <color name="textPrincipal">#151522</color>
+
+    <!-- Texto Alterntivo -->
+    <color name="textAlt">#1A1A32</color>
+
+
+    <color name="colorAccent">#03DAC5</color>
+
+
+
+
+</resources>

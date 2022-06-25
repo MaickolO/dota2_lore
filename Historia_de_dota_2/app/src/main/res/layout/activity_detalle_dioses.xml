@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".Detalle.detalle_dioses">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Fondo -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/fondo_dioses_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mad_moon" />
+
+
+        <!-- Titulo -->
+
+        <!-- nombres -->
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/titulo_espanol_det_dioses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/PrimaryMain"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/titulo_ingles_det_dioses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/SecondaryMain"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <!-- Título -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_left"/>
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/biografia"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/PrimaryMain" />
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_right"/>
+
+            </LinearLayout>
+
+            <!-- Texto 1-->
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/det_dioses_texto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/historia_mundo"
+                android:textSize="14sp"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/textPrincipal"
+                android:typeface="serif" />
+
+            <!-- Titulo 1 -->
+            <LinearLayout
+                android:id="@+id/det_dioses_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/det_dioses_titulo1"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/localizaion"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/PrimaryMain" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_right"/>
+
+            </LinearLayout>
+
+            <!-- Texto 2-->
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/det_dioses_texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/historia_mundo"
+                android:textSize="14sp"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/textPrincipal"
+                android:typeface="serif" />
+
+            <!-- Titulo 2 -->
+            <LinearLayout
+                android:id="@+id/det_dioses_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/det_dioses_titulo2"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/cultura"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/PrimaryMain" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_right"/>
+
+            </LinearLayout>
+
+            <!-- Texto 3-->
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/det_dioses_texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/historia_mundo"
+                android:textSize="14sp"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/textPrincipal"
+                android:typeface="serif" />
+
+            <!-- Titulo 3 -->
+            <LinearLayout
+                android:id="@+id/det_dioses_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/det_dioses_titulo3"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/marea"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/PrimaryMain" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_right"/>
+
+            </LinearLayout>
+
+            <!-- Texto 4-->
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/det_dioses_texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/historia_mundo"
+                android:textSize="14sp"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/textPrincipal"
+                android:typeface="serif" />
+
+            <!-- Titulo 4 -->
+            <LinearLayout
+                android:id="@+id/det_dioses_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/det_dioses_titulo4"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/marea"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/PrimaryMain" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_line_right"/>
+
+            </LinearLayout>
+
+            <!-- Texto 5-->
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/det_dioses_texto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/historia_mundo"
+                android:textSize="14sp"
+                android:lineSpacingExtra="7dp"
+                android:textColor="@color/textPrincipal"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <!-- Banner prueba: ca-app-pub-3940256099942544/6300978111 -->
+        <!-- Codigo Banner: ca-app-pub-8291876581767416/1123710874 -->
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView_det_dioses"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8291876581767416/1123710874">
+        </com.google.android.gms.ads.AdView>
+
+        <!-- Título Relacionado -->
+        <LinearLayout
+            android:id="@+id/layout_rel_dioses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_left"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/relacionados"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@color/PrimaryMain" />
+
+            <LinearLayout
+                android:layout_width="137dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_right"/>
+
+        </LinearLayout>
+
+        <!-- Heroes -->
+        <LinearLayout
+            android:id="@+id/layout_detdioses_rel_heroes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/heroes"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/PrimaryMain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_right"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_dioses_rel_heroe"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Mundo -->
+        <LinearLayout
+            android:id="@+id/layout_detdioses_rel_mundo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/lugares"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/PrimaryMain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_right"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_dioses_rel_mundo"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Razas -->
+        <LinearLayout
+            android:id="@+id/layout_detdioses_rel_razas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/razas"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/PrimaryMain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_right"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_dioses_rel_razas"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Dioses -->
+        <LinearLayout
+            android:id="@+id/layout_detdioses_rel_dioses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/dioses"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/PrimaryMain" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_height="2dp"
+                android:background="@drawable/horizontal_line_right"/>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_dioses_rel_dioses"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    
+</ScrollView>

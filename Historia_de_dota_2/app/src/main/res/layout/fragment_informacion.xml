@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".fragmentPrincipal.informacion"
+    android:orientation="vertical">
+
+    <!-- Política de Privacidad -->
+    <LinearLayout
+        android:id="@+id/layout_politica"
+        android:paddingStart="20dp"
+        android:layout_marginTop="60dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/background2"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="@color/textPrincipal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:text="Política de Privacidad"
+            tools:ignore="RtlCompat" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/lottie_politica"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_fileName="play_button.json"
+            app:lottie_imageAssetsFolder="assets"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+    <!-- Compartir -->
+    <LinearLayout
+        android:id="@+id/layout_compartir"
+        android:paddingStart="20dp"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/background2"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="@color/textPrincipal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:text="Compartir"
+            tools:ignore="RtlCompat" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/lottie_compartir"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_fileName="play_button.json"
+            app:lottie_imageAssetsFolder="assets"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+    <!-- Contacto -->
+    <LinearLayout
+        android:id="@+id/layout_contacto"
+        android:paddingStart="20dp"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/background2"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="@color/textPrincipal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:text="Contacto"
+            tools:ignore="RtlCompat" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/lottie_contacto"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_fileName="play_button.json"
+            app:lottie_imageAssetsFolder="assets"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+    </LinearLayout>
+
+    <!-- Dia - noche
+    <LinearLayout
+        android:id="@+id/layout_sonido"
+        android:layout_marginTop="40dp"
+        android:paddingStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/background2"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="@color/textPrincipal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:text="Sonido"
+            tools:ignore="RtlCompat" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_sonido"
+            android:paddingHorizontal="20dp"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    -->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Lore de dota 2</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- Menu -->
+    <string name="Menu_inicio">Inicio</string>
+    <string name="Menu_archronicus">Archronicus</string>
+    <string name="Menu_heroes">Heroes</string>
+    <string name="Menu_facciones">Facciones</string>
+    <string name="Menu_regiones">Regiones</string>
+    <string name="Menu_dioses">Dioses</string>
+    <string name="Menu_razas">Razas</string>
+    <string name="Menu_eventos">Eventos</string>
+    <string name="Menu_textos">Textos</string>
+    <string name="Menu_informacion">Información de la App</string>
+
+    <!-- Inicio -->
+    <string name="inicio_tit_1">-Archronicus</string>
+    <string name="inicio_autor_1">-Autor1</string>
+    <string name="inicio_reciente">Más Recientes</string>
+
+    <!-- Heroe -->
+    <string name="historia_heroe">
+
+    Llegaron sin previo aviso. Tras las murallas de la ciudad de Stonehall se produjo un estruendo y un sonido terrible,
+        y de la ignota negrura apareció un ejército de bestias en número imposible de cuantificar. Esgrimían llamas y
+        vil hechicería. Asesinaban y raptaban a madres e hijos para sus oscuros propósitos. De la otrora poderosa
+        fuerza militar de Stonehall, solo la Legión de Bronce, liderada por la indomable comandante Tresdin, se encontraba
+        lo suficientemente cerca como para responder a la llamada de la batalla. Cabalgaron hacia el interior de su ciudad,
+        combatiendo a través de callejones ensangrentados y mercados en llamas, abriéndose paso a través de la monstruosa
+        multitud hacia la fuente de la repentina invasión: una grieta etérea en la plaza de la villa, y en el precipicio,
+        bramando, su temido campeón.
+    </string>
+
+
+    <!-- Seleccion Heroe -->
+    <string name="lista">Lista</string>
+    <string name="txtHeroes">Héroes</string>
+    <string name="edittxtHintHeroe">Buscar un héroe</string>
+
+    <!-- Seleccion region -->
+
+    <string name="txtRegiones">Regiones</string>
+    <string name="edittxtHintRegion">Buscar región</string>
+    <string name="biografia">Biografía</string>
+    <string name="refer"> * Algunas imágenes solo son referenciales *</string>
+
+
+    <!-- Seleccion raza -->
+    <string name="txtRaza">Razas</string>
+    <string name="txtEventos">Eventos</string>
+    <string name="txtTextos">Textos</string>
+    <string name="txtDioses">Dioses</string>
+    <string name="txtFacciones">Facciones</string>
+    <string name="edittxtHintRaza">Buscar Raza</string>
+    <string name="edittxtHintFaccion">Buscar Facciones</string>
+    <string name="edittxtHintTextos">Buscar Textos</string>
+    <string name="edittxtHintDioses">Buscar Dioses</string>
+    <string name="edittxtHintEventos">Buscar Eventos</string>
+    <string name="historia_razas">historia</string>
+
+
+    <!-- Archronicus -->
+
+    <string name="archronicus">En estas páginas sagradas están escritas los últimos vestigios de un
+        cuerpo de conocimiento antaño glorioso. Copiadas y recopiadas por generaciones de escribas,
+        traducidas por eruditos y encriptadas por magos, las crónicas que aquí se encuentran recopilan
+        las historias perdidas de las tierras en disputa, sus reglas y guardianes, su educación superior
+        y su magia antigua. Los textos proceden de muchas culturas a lo largo de muchos siglos y consagran
+        para siempre los fragmentados relatos de eruditos muertos hace mucho tiempo y las ocultas verdades
+        más poderosas que cualquier espada o hechizo. Sellado ahora con un hechizo de encriptación, sólo
+        los ojos dignos pueden leer el libro y sólo con hechos se revela la verdad. Y sólo con la sangre
+        de los héroes se escribirán nuevas páginas.
+    </string>
+
+    <string name="historia_titulo">Historia</string>
+    <string name="capitulo_titulo">Seleccionar Capítulo</string>
+    <string name="capitulo1">La luna loca y los Ancestros</string>
+    <string name="capitulo2">Crónica de Thesos: Un pueblo de los Keens</string>
+    <string name="capitulo3">El mar de las Invocaciones</string>
+    <string name="capitulo4">La Recompensa por la Muerte</string>
+    <string name="capitulo5">Ciclo de Solsticios</string>
+    <string name="capitulo6">La noche de los Espectros: La noche más larga de la era</string>
+
+    <string name="cap1img1">La Luna Loca</string>
+    <string name="cap1img2">La Luna Loca Elevándose</string>
+    <string name="cap1img3">La Destrucción de la Luna Loca</string>
+
+    <string name="cap2img1">Anatomía de un Dragón dibujado por Thesos</string>
+    <string name="cap2img2">Sello de los Caballeros Escamados de Uthorian dibujado por Thesos</string>
+
+    <string name="cap3img1">Gema de la Visión Verdadera</string>
+    <string name="cap3img2">Maelrawn El Tentacular</string>
+    <string name="cap3img3">Ira de Maelrawn al ver la Gema de la Visión Verdadera</string>
+
+
+    <!-- Detalle Mundo -->
+
+    <string name="historia_mundo">historia</string>
+
+    <string name="localizaion">Localización</string>
+    <string name="cultura">Cultura</string>
+    <string name="marea">La Marea de Tinta</string>
+    <string name="magia">Magia</string>
+    <string name="invasion">Invasión</string>
+    <string name="batalla1">Primera Batalla</string>
+    <string name="batalla2">Segunda Batalla</string>
+    <string name="laberinto">Laberinto Estrecho</string>
+    <string name="basurero">Basurero Oriental</string>
+
+
+    <!-- Relacionados -->
+
+    <string name="relacionados">Relacionados</string>
+    <string name="heroes">Heroes</string>
+    <string name="lugares">Regiones</string>
+    <string name="razas">Razas</string>
+    <string name="dioses">Dioses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
